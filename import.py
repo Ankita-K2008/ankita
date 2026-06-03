@@ -13,5 +13,4 @@ print(random.randint(1000,9999))
 
 
 cities = ["kolhapur", "mumbai", "pune", "latur","nashik"]
-
 print("random city:", random.choice(cities))

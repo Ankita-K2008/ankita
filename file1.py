@@ -1,13 +1,14 @@
-#file = open("demo.txt","w")
+############ write file ########
+file = open("demo.txt","w")
+file.write("hello ankita")
 
-#file.write("hello ankita")
 
-#file = open("demo.txt","r")
+##### read file#######
+file = open("demo.txt","r")
+res = file.read()
+print(res)
+file.close()
 
-#res = file.read()
-#print(res)
-#file.close()
-
+##### append file ######
 file = open("demo.txt","a")
-
 file.write("\n rajarampuri")
